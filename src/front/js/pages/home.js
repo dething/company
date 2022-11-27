@@ -163,10 +163,10 @@ export const Home = () => {
           </p>
           <div className="d-flex">
             <Link to="/contact" className="text-decoration-none">
-              <button className="button-29 me-3"> Let's Talk!</button>
+              <button className="button-29 me-3">Contact Us</button>
             </Link>
             <Link to="/projects" className="text-decoration-none">
-              <button className="button-29"> See protafolio</button>
+              <button className="button-29">Our Portfolio</button>
             </Link>
           </div>
         </div>
@@ -257,7 +257,7 @@ export const Home = () => {
             customPaging={customPaging}
             autoplay={true}
             autoplaySpeed={2000}
-            // appendDots={appendDots}
+          // appendDots={appendDots}
           >
             {renderSlides()}
           </Slider>
